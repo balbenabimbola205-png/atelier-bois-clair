@@ -20,6 +20,10 @@ body {
   line-height: 1.6;
   color: var(--texte);
   background: var(--fond);
+  background-image: url("fond.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 img {
@@ -74,7 +78,7 @@ a {
 .hero {
   text-align: center;
   padding: 90px 5%;
-  background: var(--fond-alt);
+  background: rgba(241, 228, 204, 0.86);
 }
 
 .hero h1 {
@@ -128,7 +132,7 @@ a {
 /* Section avec fond différent sur toute la largeur */
 .section-alt {
   max-width: none;
-  background: var(--fond-alt);
+  background: rgba(241, 228, 204, 0.86);
 }
 
 .section-alt > * {
@@ -145,7 +149,7 @@ a {
 }
 
 .carte {
-  background: var(--blanc);
+  background: rgba(255, 255, 255, 0.9);
   padding: 25px;
   border-radius: 8px;
   border-top: 4px solid var(--accent);
@@ -164,7 +168,7 @@ a {
 }
 
 .galerie figure {
-  background: var(--fond-alt);   /* visible tant que l'image n'est pas ajoutée */
+  background: rgba(241, 228, 204, 0.9);   /* visible tant que l'image n'est pas ajoutée */
   border-radius: 8px;
   overflow: hidden;
 }
@@ -228,5 +232,8 @@ a {
   }
   .entete {
     justify-content: center;
+  }
+  body {
+    background-attachment: scroll;
   }
 }
