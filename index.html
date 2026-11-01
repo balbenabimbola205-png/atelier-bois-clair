@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atelier Bois Clair : meubles, stands de vente et espaces de repos en bois clair pour vos événements.">
+  <title>Atelier Bois Clair</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== EN-TÊTE ========== -->
+  <header class="entete">
+    <a href="#accueil" class="logo">Atelier Bois Clair</a>
+    <nav aria-label="Navigation principale">
+      <ul>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
+        <li><a href="#evenements">Événements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== ACCUEIL ========== -->
+    <section id="accueil" class="hero">
+      <h1>Le bois clair au service de vos espaces</h1>
+      <p>Meubles, stands de vente et espaces de repos pour vos fêtes nationales et locales.</p>
+      <a href="#contact" class="bouton">Demander un devis</a>
+    </section>
+
+    <!-- ========== À PROPOS ========== -->
+    <section id="apropos" class="section">
+      <h2>À propos</h2>
+      <p>
+        Atelier Bois Clair est une entreprise spécialisée dans la création en bois clair :
+        mobilier, dispositifs de stands de vente et aménagements de places de repos.
+        Nous travaillons un matériau chaleureux, léger et naturel pour donner du caractère
+        à chaque lieu et à chaque événement.
+      </p>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="services" class="section section-alt">
+      <h2>Nos services</h2>
+      <div class="grille">
+        <article class="carte">
+          <h3>Meubles</h3>
+          <p>Chaises, tables, bancs et mobilier sur mesure en bois clair.</p>
+        </article>
+        <article class="carte">
+          <h3>Stands de vente</h3>
+          <p>Dispositifs de présentation et de vente, faciles à monter et à transporter.</p>
+        </article>
+        <article class="carte">
+          <h3>Places de repos</h3>
+          <p>Espaces d'assise et de détente installés lors de fêtes et festivals.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== RÉALISATIONS (GALERIE) ========== -->
+    <section id="realisations" class="section">
+      <h2>Nos réalisations</h2>
+      <p class="intro">Quelques exemples de dispositifs et d'installations.</p>
+
+      <div class="galerie">
+
+        <!-- Pour ajouter une image : copie un bloc <figure>, change le nom du fichier et le texte -->
+        <figure>
+          <img src="images/stand-1.jpg" alt="Stand de vente en bois clair" loading="lazy">
+          <figcaption>Stand de vente</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/stand-2.jpg" alt="Comptoir de présentation en bois clair" loading="lazy">
+          <figcaption>Comptoir de présentation</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/repos-1.jpg" alt="Place de repos avec bancs en bois clair" loading="lazy">
+          <figcaption>Place de repos</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/chaises-1.jpg" alt="Chaises en bois clair" loading="lazy">
+          <figcaption>Chaises</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/table-1.jpg" alt="Table en bois clair" loading="lazy">
+          <figcaption>Table</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/evenement-1.jpg" alt="Installation lors d'un festival" loading="lazy">
+          <figcaption>Installation événementielle</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ========== ÉVÉNEMENTS ========== -->
+    <section id="evenements" class="section section-alt">
+      <h2>Nos événements</h2>
+      <p>
+        Nous installons nos dispositifs lors de fêtes nationales et locales, comme le
+        <strong>FestiShill</strong>, le <strong>Shill and Groove</strong> et bien d'autres.
+      </p>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form class="formulaire" action="#" method="post">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="mail">E-mail</label>
+        <input type="email" id="mail" name="mail" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="bouton">Envoyer</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ========== PIED DE PAGE ========== -->
+  <footer class="pied">
+    <p>&copy; 2026 Atelier Bois Clair. Projet de classe.</p>
+  </footer>
+
+</body>
+</html>
